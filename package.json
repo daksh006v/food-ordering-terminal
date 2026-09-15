@@ -1,0 +1,30 @@
+{
+  "name": "food-ordering-terminal",
+  "version": "1.0.0",
+  "description": "Terminal-based Food Ordering & Billing System in TypeScript",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daksh006v/food-ordering-terminal.git"
+  },
+  "keywords": [
+    "typescript",
+    "terminal",
+    "food-ordering",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
